@@ -1,0 +1,9 @@
+name: anomoly_detection
+version: 0.1.0
+
+authors:
+  - Alex Miller <apmiller108@yahoo.com>
+
+crystal: 0.23.1
+
+license: MIT
