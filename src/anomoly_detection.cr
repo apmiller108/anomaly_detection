@@ -1,5 +1,11 @@
 require "./anomoly_detection/*"
 
 module AnomolyDetection
-  # TODO Put your code here
+  class EstimateGaussian
+    getter x
+
+    def initialize(x : Array(Array(Int32)))
+      @x = x
+    end
+  end
 end
