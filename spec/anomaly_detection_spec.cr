@@ -5,10 +5,10 @@ def matrix
 end
 
 def subject
-  AnomolyDetection::EstimateGaussian.new(matrix)
+  AnomalyDetection::EstimateGaussian.new(matrix)
 end
 
-describe AnomolyDetection do
+describe AnomalyDetection do
   it "initializes with an Array of integers" do
     subject.should be_truthy
   end

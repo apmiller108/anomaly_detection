@@ -1,2 +1,2 @@
 require "spec"
-require "../src/anomoly_detection"
+require "../src/anomaly_detection"

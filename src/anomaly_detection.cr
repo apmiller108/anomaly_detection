@@ -1,6 +1,6 @@
-require "./anomoly_detection/*"
+require "./anomaly_detection/*"
 
-module AnomolyDetection
+module AnomalyDetection
   class EstimateGaussian
     getter x
 
